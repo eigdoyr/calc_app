@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calulator App</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator" id="calculator">
+        <label for="calc-input" hidden></label>
+        <input
+          type="text"
+          name="calc-input"
+          id="display"
+          class="display"
+          placeholder="hello world 🤖"
+          disabled
+        />
+        <div class="button-container">
+          <br />
+          <button id="ac" class="operator" type="button">AC</button>
+          <button id="del" class="operator" type="button">DE</button>
+          <button id="." class="operator" type="button">.</button>
+          <button id="/" class="operator" type="button">/</button>
+          <br />
+          <button id="7" type="button">7</button>
+          <button id="8" type="button">8</button>
+          <button id="9" type="button">9</button>
+          <button id="*" class="operator" type="button">*</button>
+          <br />
+          <button id="4" type="button">4</button>
+          <button id="5" type="button">5</button>
+          <button id="6" type="button">6</button>
+          <button id="-" class="operator" type="button">-</button>
+          <br />
+          <button id="1" type="button">1</button>
+          <button id="2" type="button">2</button>
+          <button id="3" type="button">3</button>
+          <button id="+" class="operator" type="button">+</button>
+          <br />
+          <button id="00" type="button">00</button>
+          <button id="0" type="button">0</button>
+          <button id="=" class="equal operator" type="button">=</button>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
